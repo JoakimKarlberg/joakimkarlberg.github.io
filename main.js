@@ -28,7 +28,7 @@ function getBeast(){
 
     if(randomedBeast !== undefined)
     {
-        divData.innerHTML = "You summon " + getNumberOfBeasts(cr) + " " + randomedBeast.name + getPlural(randomedBeast.cr_enumerable, getNumberOfBeasts(cr)) + " with CR " +  randomedBeast.combat_rating + "<br> Terrain: " + "<strong>" + tr + "</strong>";
+        divData.innerHTML = "You summon <strong>" + getNumberOfBeasts(cr) + " " + randomedBeast.name + getPlural(randomedBeast.cr_enumerable, getNumberOfBeasts(cr)) + "</strong> with <strong> CR " +  randomedBeast.combat_rating + "</strong><br> Terrain: " + "<strong>" + tr + "</strong>";
     }
     else
     {
