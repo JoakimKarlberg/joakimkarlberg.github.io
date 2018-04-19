@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>ConjurerApp</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="main.js"></script>
+        <script type="text/javascript" src="beastList.js"></script>
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js" integrity="sha384-uefMccjFJAIv6A+rW+L4AHf99KvxDjWSu1z9VI8SKNVmz4sk7buKt/6v9KI65qnm" crossorigin="anonymous"></script>
+        <link rel="stylesheet" type="text/css" href="style.css" />    
+</head>
+    <body>
+        <div class="mainDiv">
+                <div class="header">
+                        <div><h1>Welcome, Conjurer</h1></div>
+                    </div>
+                    <p>Select a <strong>Combat Rating</strong> and a <strong>Terrain Type</strong> and press the <strong>Random!</strong>-button to randomize your beast</p>
+                    <hr>
+                    <div id="selectorDiv">
+                        <h5>Select a Combat Rating:
+                        <select id="crSelect">
+                            <option value="" disabled selected>---</option>
+                            <option value="1">1/4</option>
+                            <option value="2">1/2</option>
+                            <option value="3">1</option>
+                            <option value="4">2</option>
+                        </select> </h5>
+            
+                        <h5>Select a Terrain type: 
+                        <select id="terrainSelect">
+                            <option value="" disabled selected>---</option>
+                            <option value="1">Arctic</option>
+                            <option value="2">Coastal</option>
+                            <option value="3">Desert</option>
+                            <option value="4">Forest</option>
+                            <option value="5">Grassland</option>
+                            <option value="6">Hill</option>
+                            <option value="7">Mountain</option>
+                            <option value="8">Swamp</option>
+                            <option value="9">Underdark</option>
+                            <option value="10">Urban</option>
+                            <option value="11">Underwater</option>
+                        </select></h5>
+                        <button id="randomBtn">Random!</button>
+                    </div>
+                    <div id="testPrint"></div>
+                    <h4 id="showData"></h4>
+                    <hr>
+                    <button onclick="showSpell()">Show Spell Card</button>
+            <script>    
+            function showSpell() {
+                var x = document.getElementById("spellDiv");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                }
+            }
+            </script>
+                    <div id="spellDiv" style="display: none">
+                        <img src="spellcard.png" height="500em" width="auto" id="spellcard"></div>
+        </div>
+    </body>
+</html>
