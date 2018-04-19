@@ -28,7 +28,7 @@ function getBeast(){
 
     if(randomedBeast !== undefined)
     {
-        divData.innerHTML = "You summon " + getNumberOfBeasts(cr) + " " + randomedBeast.name + getPlural(cr) + " with CR " +  randomedBeast.combat_rating + "<br> Terrain: " + "<strong>" + tr + "</strong>";
+        divData.innerHTML = "You summon " + getNumberOfBeasts(cr) + " " + randomedBeast.name + getPlural(randomedBeast.cr_enumerable, getNumberOfBeasts(cr)) + " with CR " +  randomedBeast.combat_rating + "<br> Terrain: " + "<strong>" + tr + "</strong>";
     }
     else
     {
@@ -40,8 +40,9 @@ function getBeast(){
 }
 
 // determines if output string should be in plural or not depending on amount of summons
-function getPlural(crInput){
-    if(crInput < 2){
+function getPlural(crInput, crEnum){
+    if(crInput < 4 && crEnum > 1){
+        //INSERT REGEX FOR PLURAL
         return "s ";
     }
     else{
