@@ -115,7 +115,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Axe Beak",
     "terrain": [
         "Hill",
@@ -124,7 +124,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Boar",
     "terrain": [
         "Hill",
@@ -134,7 +134,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Constrictor Snake",
     "terrain": [
         "Desert",
@@ -145,7 +145,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Draft Horse",
     "terrain": [
         "Urban"
@@ -153,7 +153,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Elk",
     "terrain": [
         "Grassland",
@@ -163,7 +163,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Giant Badger",
     "terrain": [
         "Forest"
@@ -171,7 +171,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Giant Bat",
     "terrain": [
         "Forest",
@@ -180,7 +180,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Giant Centipede",
     "terrain": [
         "Underdark",
@@ -189,7 +189,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Giant Frog",
     "terrain": [
         "Forest",
@@ -198,7 +198,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Giant Lizard",
     "terrain": [
         "Desert",
@@ -210,7 +210,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Giant Owl",
     "terrain": [
         "Arctic",
@@ -220,7 +220,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Giant Poisonous Snake",
     "terrain": [
         "Desert",
@@ -233,7 +233,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Giant Wolf Spider",
     "terrain": [
         "Coastal",
@@ -245,7 +245,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Panther",
     "terrain": [
         "Grassland",
@@ -255,7 +255,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Pterandon",
     "terrain": [
         "Coastal",
@@ -265,7 +265,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Riding Horse",
     "terrain": [
         "Grassland",
@@ -274,7 +274,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Swarm of Bats",
     "terrain": [
         "Hill",
@@ -285,7 +285,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Swarm of Rats",
     "terrain": [
         "Swamp",
@@ -294,7 +294,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Swarm of Ravens",
     "terrain": [
         "Hill",
@@ -305,7 +305,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/4",
-    "cr_enumerable": 2,
+    "cr_enumerable": 1,
     "name": "Wolf",
     "terrain": [
         "Hill",
@@ -315,7 +315,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Ape",
     "terrain": [
         "Forest"
@@ -323,7 +323,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Black Bear",
     "terrain": [
         "Forest"
@@ -331,7 +331,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Crocodile",
     "terrain": [
         "Swamp",
@@ -340,7 +340,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Giant Goat",
     "terrain": [
         "Grassland",
@@ -350,7 +350,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Giant Sea Horse",
     "terrain": [
         "Underwater"
@@ -358,7 +358,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Giant Wasp",
     "terrain": [
         "Forest",
@@ -368,7 +368,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Reef Shark",
     "terrain": [
         "Underwater"
@@ -376,7 +376,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Ape",
     "terrain": [
         "Forest"
@@ -384,7 +384,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Swarm of Insects",
     "terrain": [
         "Desert",
@@ -398,7 +398,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1/2",
-    "cr_enumerable": 3,
+    "cr_enumerable": 2,
     "name": "Warhorse",
     "terrain": [
         "Urban"
@@ -406,7 +406,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Brown Bear",
     "terrain": [
         "Forest",
@@ -416,7 +416,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Dire Wolf",
     "terrain": [
         "Forest",
@@ -426,7 +426,7 @@ var beasts = [{
 
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Giant Eagle",
     "terrain": [
         "Coastal",
@@ -437,7 +437,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Giant Hyena",
     "terrain": [
         "Forest",
@@ -448,7 +448,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Giant Octopus",
     "terrain": [
         "Underwater"
@@ -456,7 +456,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Giant Spider",
     "terrain": [
         "Forest",
@@ -468,7 +468,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Giant Toad",
     "terrain": [
         "Forest",
@@ -480,7 +480,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Giant Vulture",
     "terrain": [
         "Desert",
@@ -489,7 +489,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Lion",
     "terrain": [
         "Desert",
@@ -500,7 +500,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Swarm of Quippers",
     "terrain": [
         "Underwater"
@@ -508,7 +508,7 @@ var beasts = [{
 },
 {
     "combat_rating": "1",
-    "cr_enumerable": 4,
+    "cr_enumerable": 3,
     "name": "Tiger",
     "terrain": [
         "Forest",
@@ -517,7 +517,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Allosaurus",
     "terrain": [
         "Grassland"
@@ -525,7 +525,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Cave Bear",
     "terrain": [
         "Forest",
@@ -535,7 +535,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Giant Boar",
     "terrain": [
         "Forest",
@@ -545,7 +545,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Giant Constrictor Snake",
     "terrain": [
         "Desert",
@@ -557,7 +557,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Giant Elk",
     "terrain": [
         "Forest",
@@ -568,7 +568,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Hunter Shark",
     "terrain": [
         "Underwater"
@@ -576,7 +576,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Pleiosaurus",
     "terrain": [
         "Coastal",
@@ -585,7 +585,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Polar Bear",
     "terrain": [
         "Arctic",
@@ -594,7 +594,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Rhinoceros",
     "terrain": [
         "Grassland"
@@ -602,7 +602,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Saber-Toothed Tiger",
     "terrain": [
         "Arctic",
@@ -611,7 +611,7 @@ var beasts = [{
 },
 {
     "combat_rating": "2",
-    "cr_enumerable": 5,
+    "cr_enumerable": 4,
     "name": "Swarm of Poisonous Snakes",
     "terrain": [
         "Forest",

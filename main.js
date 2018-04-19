@@ -25,7 +25,6 @@ function getBeast(){
     });
     
     let randomedBeast = beastArray[Math.floor(Math.random() * beastArray.length)];
-
     if(randomedBeast !== undefined)
     {
         divData.innerHTML = "You summon <strong>" + getNumberOfBeasts(cr) + " " + randomedBeast.name + getPlural(randomedBeast.cr_enumerable, getNumberOfBeasts(cr)) + "</strong> with <strong> CR " +  randomedBeast.combat_rating + "</strong><br> Terrain: " + "<strong>" + tr + "</strong>";
@@ -34,14 +33,12 @@ function getBeast(){
     {
         divData.innerHTML = "Please select both a <strong>Combat Rating</strong> and a <strong>Terrain Type</strong> to request a random beast";
     }
-
-
     isClicked = true;
 }
 
 // determines if output string should be in plural or not depending on amount of summons
 function getPlural(crInput, crEnum){
-    if(crInput < 4 && crEnum > 1){
+    if(crInput < 5 && crEnum > 1){
         //INSERT REGEX FOR PLURAL
         return "s ";
     }
