@@ -618,4 +618,137 @@ var beasts = [{
         "Swamp"
     ]
 }
+,
+//Volo's + STK + Xanathar
+{
+    "combat_rating": "1/8",
+    "cr_enumerable": 1,
+    "name": "Dolphin",
+    "terrain": [
+        "Coastal",
+        "Underwater"
+    ]
+},
+{
+    "combat_rating": "1/4",
+    "cr_enumerable": 1,
+    "name": "Cow",
+    "terrain": [
+        "Grassland"
+    ]
+}
+,
+{
+    "combat_rating": "1/4",
+    "cr_enumerable": 1,
+    "name": "Deep Rothé",
+    "terrain": [
+        "Underdark"
+    ]
+}
+,
+{
+    "combat_rating": "1/4",
+    "cr_enumerable": 1,
+    "name": "Dimetrodon",
+    "terrain": [
+        "Coastal",
+        "Swamp"
+    ]
+},
+{
+    "combat_rating": "1/4",
+    "cr_enumerable": 1,
+    "name": "Hadrosaurus",
+    "terrain": [
+        "Grassland",
+        "Swamp"
+    ]
+},
+{
+    "combat_rating": "1/4",
+    "cr_enumerable": 1,
+    "name": "Ox",
+    "terrain": [
+        "Grassland"
+    ]
+},
+{
+    "combat_rating": "1/4",
+    "cr_enumerable": 1,
+    "name": "Rothé",
+    "terrain": [
+        "Hill",
+        "Grassland",
+        "Mountain",
+        "Arctic"
+    ]
+}
+,
+{
+    "combat_rating": "1/4",
+    "cr_enumerable": 1,
+    "name": "Stench Kow",
+    "terrain": [
+        "Grassland",
+        "Hill"
+    ]
+},
+{
+    "combat_rating": "1/4",
+    "cr_enumerable": 1,
+    "name": "Velociraptor",
+    "terrain": [
+        "Forest",
+        "Grassland"
+    ]
+},
+{
+    "combat_rating": "1/2",
+    "cr_enumerable": 2,
+    "name": "Swarm of Rot Grubs",
+    "terrain": [
+        "Swamp",
+        "Underdark"
+    ]
+},
+{
+    "combat_rating": "1",
+    "cr_enumerable": 3,
+    "name": "Crag Cat",
+    "terrain": [
+        "Arctic",
+        "Mountain"
+    ]
+},
+{
+    "combat_rating": "1",
+    "cr_enumerable": 3,
+    "name": "Deinonychus",
+    "terrain": [
+        "Forest",
+        "Grassland",
+        "Hill"
+    ]
+},
+{
+    "combat_rating": "2",
+    "cr_enumerable": 4,
+    "name": "Aurochs",
+    "terrain": [
+        "Grassland",
+        "Hill",
+        "Mountain"
+    ]
+},
+{
+    "combat_rating": "2",
+    "cr_enumerable": 4,
+    "name": "Quetzalcoatlus",
+    "terrain": [
+        "Coastal",
+        "Hill",
+        "Mountain"
+    ]
+}
 ]
